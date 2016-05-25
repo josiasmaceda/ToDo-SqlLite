@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.maceda.listacompras.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_search"
+        android:title="Pesquisar"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>
